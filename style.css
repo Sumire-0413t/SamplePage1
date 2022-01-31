@@ -1,0 +1,127 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+.font_gothic {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+.font_roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font_rubikB {
+  font-family: "Rubik Beastly", cursive;
+}
+.font_stencil {
+  font-family: "Stardos Stencil", cursive;
+}
+
+p {
+  color: #807b7b;
+}
+
+body {
+  background-color: #cdba8d53;
+}
+
+.container {
+  width: 90%;
+  position: relative;
+}
+
+/* header */
+
+#Shop {
+  margin-top: 20px;
+  width: 400px;
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.name {
+  display: block;
+  text-align: center;
+  font-family: stencil-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 50px;
+  color: #a8a232a0;
+}
+
+/* main */
+
+.main_container {
+  margin: 20px 0;
+  padding: 30px;
+  background-color: #faf9f7;
+}
+
+.top_box {
+  display: flex;
+  align-items: center;
+}
+
+.top_box span {
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  background-color: #c5a4a4;
+}
+
+.top_message {
+  width: 50%;
+  text-align: center;
+  line-height: 25px;
+}
+
+/* コンテンツ */
+.contents_box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#image {
+  border-radius: 20px;
+  width: 213px;
+  height: 213px;
+  background-color: cadetblue;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+#image span {
+  display: block;
+  text-align: center;
+  line-height: 190px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: rgb(254, 233, 184);
+  font-family: "Rubik Beastly", cursive;
+}
+
+/* #image:nth-child(n+1) {
+} */
+
+/* footer */
+
+.footer {
+  position: absolute;
+  right: 0;
+
+  padding: 10px;
+  width: 300px;
+  border: dashed 0.5px #d4d4d4;
+
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* hover */
+
+#image:hover {
+  /* transform: translate(0, -8px); */
+  /* transform: scale(1.2); */
+  transform: rotate(-0.01turn);
+}
